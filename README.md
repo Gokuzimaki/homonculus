@@ -1,5 +1,4 @@
-# HomonculusMVC
-<img src="https://i.imgur.com/ZtXNYCM.png" alt="I-Colony"/>  
+# HomonculusMVC  
 
 Homonculus is a boiler plate project for content managment that utilises the Model View Controller(MVC) development approach
 
