@@ -1,0 +1,1343 @@
+/* extra large desktop :1366px. */
+@media (min-width: 1366px) and (max-width: 1920px) {
+    .blog-content-app {
+      padding: 23px 18px 23px 10px;
+    }
+    .construction-support {
+      width: 300px;
+    }    
+    .construction-support.right-site {
+      width: 300px;
+    }    
+    .sidebar-none{
+        display: none;
+    }    
+    
+    
+    
+    
+}
+
+
+
+/* large desktop :1366px. */
+@media (min-width: 1200px) and (max-width: 1366px) {
+    .blog-content-app {
+      padding: 23px 18px 23px 10px;
+    }
+    .construction-support {
+      width: 300px;
+    }    
+    .construction-support.right-site {
+      width: 300px;
+    }    
+    .sidebar-none{
+        display: none;
+    }    
+.active .hamburger-inner, .active .hamburger-inner::after, .active .hamburger-inner::before {
+  background-color: #333;
+}  
+.soft-details {
+  padding: 83px 30px 90px 117px;
+}    
+.soft-dashboard-2 .soft-details {
+  padding: 83px 90px 90px 33px;
+}   
+.sidebar-main-menu ul li ul {
+  height: 150px;
+  overflow-y: auto;
+}    
+    
+    
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    
+  .height-100-vh {
+    height: inherit;
+    padding: 300px 0 200px;
+  }
+  .sidebar-main-menu ul li ul {
+    height: 150px;
+    overflow-y: auto;
+  }
+  .blog-box {
+    padding: 20px;
+  }
+  .features-content {
+    margin-left: 45px;
+  }    
+  .info-details-2.mt-40 {
+    margin-top: 0;
+  }   
+  .info-details h2 {
+    font-size: 30px;
+  }    
+  .mt-40 {
+    margin-top: 0;
+  }    
+  .video-info-text h2 {
+    font-size: 30px;
+  }    
+  .section-title.text-white p, .section-title p {
+    width: 100%;
+  }    
+    
+   .subscribe-title.pr-40 {
+    padding-right: 10px;
+  }   
+  .subscribe-title h3 {
+    font-size: 27px;
+  }   
+  .booking-text > p {
+    width: 66%;
+  }    
+      
+  .name-doller > h4 {
+    font-size: 17px;
+  } 
+  .single-restaurant-blog > h3 {
+    font-size: 19px;
+  }    
+   .single-foot-menu {
+    padding-right: 0;
+  }   
+  .single-services {
+    padding: 70px 30px 37px;
+  }    
+  .political-video .app-video-details {
+    margin-top: 0;
+  }    
+  .political-video .app-video-details h2 {
+    font-size: 25px;
+  }    
+  .blog-content h3 {
+    font-size: 17px;
+  }   
+  .slider-medical h1 {
+    font-size: 43px;
+  }
+   .call-to-action-2 h4 {
+    font-size: 27px;
+  }      
+      
+  .call-to-action-area .mt-40 {
+    margin-top: 40px;
+  }    
+   .footer-content-2 p {
+    width: 68%;
+  }   
+  .testimonial-wrap {
+    padding-top: 76px;
+  } 
+      
+  .single-construction > p {
+    padding: 0 25px;
+  }
+  .construction-support.right-site {
+    padding-left: 20px;
+    width: 230px;
+  }    
+  .construction-support {
+    width: 230px;
+  }    
+  .blog-edu-meta > span {
+    padding: 18px 10px;
+  }    
+  .pt-200 {
+    padding-top: 130px;
+  }    
+  .height-100-vh.app-area {
+    height: inherit;
+    padding: 300px 0 200px;
+  }    
+  .slider-app-img {
+    padding-left: 100px;
+    padding-top: 0;
+  }    
+  .awesome-text {
+    padding-top: 0;
+    width: 100%;
+  }    
+  .blog-img-app {
+    width: 100%;
+  }    
+  .blog-content-app {
+    width: 100%;
+  }
+  .footer-white-padding {
+    padding: 0 10px;
+  }    
+  .ptb-280 {
+    padding: 200px 0;
+  }    
+  .features-edu {
+    padding: 50px 20px;
+  }    
+  .edu-meta {
+    padding: 15px 10px;
+  }    
+  .soft-dashboard-2 .soft-details {
+    padding: 83px 17px 90px 40px;
+  }    
+  .soft-details {
+    padding: 83px 40px 90px 92px;
+  }    
+  .soft-video-details {
+    padding: 0;
+  }    
+  .soft-header .menu-bar ul li a {
+    padding: 6px 15px 7px;
+  }   
+  .detailed-rating li {
+    padding-right: 0;
+  }   
+  .course-right-sidebar {
+    padding: 46px 37px 7px 40px;
+  }    
+  .breadcrumb-text > p {
+    width: 60%;
+  }    
+  .single-blog-text blockquote {
+    padding: 30px 20px 37px;
+  }
+  .sidebar-none{
+      display: none;
+  }    
+   .active .hamburger-inner, .active .hamburger-inner::after, .active .hamburger-inner::before {
+    background-color: #333;
+  }     
+  .menu-bar ul li a {
+    padding: 14px 8px;
+  }    
+  .menu-bar ul li .mega-menu {
+    left: -222px;
+  }   
+  .menu-bar ul li .mega-menu.mega-style-2  {
+    left: -425px;
+  }    
+  .construction-menu .menu-bar ul li .mega-menu , .edu-header .menu-bar ul li .mega-menu {
+    left: -340px;
+  }    
+       
+  .construction-menu .menu-bar ul li .mega-menu.mega-style-2 , .edu-header .menu-bar ul li .mega-menu.mega-style-2 {
+    left: -550px;
+  }    
+  .menu-bar ul > li > ul {
+    left: -70px;
+  }    
+  .restaurent-menu .menu-bar ul li .mega-menu {
+    left: 0;
+  }
+  .pricing-plan a.button {
+    padding: 14px 40px;
+  } 
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .menu-bar ul li a , .others-header .menu-bar ul li a {
+  letter-spacing: 0px;
+  padding: 14px 6px;
+}
+.height-100-vh {
+  height: inherit;
+  padding: 250px 0;
+}    
+.slider-text h1 {
+  font-size: 40px;
+}    
+ .pricing-box {
+  padding: 50px 25px;
+}
+.navbar-collapse {
+  padding-left: 0;
+  padding-right: 0;
+}
+ .blog-box {
+  padding: 10px;
+}   
+.info-bg {
+  padding: 99px 0;
+  will-change: inherit;
+}    
+.info-bg-img {
+  position: inherit;
+    width: 100%;
+}    
+.info-area .ptb-120 {
+  padding: 50px 0;
+}    
+.info-details h2 {
+  font-size: 30px;
+}     
+.features-box {
+  padding: 30px 10px;
+}    
+.pl-20 {
+  padding-left: 0;
+}   
+.footer-content-2 p {
+  width: 100%;
+}    
+.features.features-link > p {
+  width: 100%;
+}    
+.class-space {
+  padding: 15px;
+}    
+.restaurant-info-all.pl-70 {
+  padding-left: 0;
+}
+.about-restaurant > h3 {
+  font-size: 26px;
+}    
+.booking-text > p {
+  width: 85%;
+}    
+.for-res{
+    margin-bottom: 50px
+}    
+.social-button {
+  display: none;
+}
+.restaurant-slider h1 {
+font-size: 45px;
+}
+.single-services {
+  padding: 50px 20px 17px;
+}    
+.political-video .pr-40 {
+  padding-right: 15px;
+}    
+.political-video .pr-70 {
+  padding-right: 0;
+}    
+.political-video .pl-70 {
+  padding-left: 0;
+}   
+.donate-text select , .donate-text input{
+  width: 155px;
+}    
+.political-img > img {
+  width: 100%;
+}
+.about-charity-area .p-0 {
+  padding: 0 15px;
+}    
+.about-charity-area .pl-60 {
+  padding-left: 0;
+}    
+ 
+.about-charity-area .pr-60 {
+  padding-left: 0;
+}    
+.about-charity {
+  margin-bottom: 40px;
+}    
+.volunteer-text {
+  padding-left: 0;
+}
+.volunteer-subscribe {
+  padding: 68px 0 0;
+}    
+.only-medical.pl-0 {
+  padding-left: 15px;
+} 
+.medi-features-text h4 {
+  font-size: 17px;
+}    
+    
+.dep-medical .info-bg {
+  padding: 250px 0;
+}    
+.dep-medical .pl-30 {
+  padding-left: 15px;
+}   
+.dep-medical .pr-100 {
+  padding-right: 15px;
+}    
+.dep-medical .pt-100 {
+  padding-top: 50px;
+}    
+.dep-medical {
+  padding-bottom: 50px;
+}    
+.call-to-action-2 {
+  padding-left: 0;
+}    
+.pl-70 {
+  padding-left: 0;
+}    
+.pr-70 {
+  padding-right: 0;
+}    
+.finan-about {
+  margin-bottom: 40px;
+  margin-top: 0;
+}   
+.testimonial-wrap {
+  padding-top: 15px;
+}    
+.features-2 p {
+  width: 100%;
+}    
+.chose-us {
+  padding-left: 15px;
+  padding-right: 15px;
+}    
+.finan-info .info-bg {
+  padding: 229px 0;
+}   
+.pt-200 {
+  padding-top: 72px;
+}    
+.single-construction > p {
+  padding: 0 20px;
+}    
+.construction-info .info-bg-img {
+  display: none;
+}  
+.construction-all-services {
+  margin-left: 0;
+}    
+.blog-edu-meta {
+  padding: 0 10px;
+}
+.slider-app-img {
+  padding-left: 70px;
+  padding-top: 0;
+}
+    
+ .height-100-vh.app-area {
+  padding: 200px 0 76px;
+}   
+.app-features {
+  padding: 60px 45px 55px;
+}    
+.app-video-details {
+  margin-top: 30px;
+}    
+.awesome-text {
+  padding-top: 0;
+  width: 100%;
+}    
+.blog-img-app {
+  width: 100%;
+}
+.blog-content-app {
+  width: 100%;
+}    
+.footer-white-padding {
+  padding: 0 150px;
+}    
+.features-edu-text {
+  margin-left: 60px;
+}    
+.features-edu {
+  padding: 30px 12px;
+}    
+ .sdu-res {
+  margin-bottom: 40px;
+}   
+.ptb-280 {
+  padding: 180px 0;
+}
+.soft-single-service {
+  padding: 22px 65px 18px 20px;
+} 
+.soft-bg-img {
+  position: inherit;
+  width: 100%;
+}    
+    
+.soft-bg {
+  padding: 270px 0;
+}    
+.soft-area {
+  padding: 40px 0 0px;
+}    
+.soft-video .video-img {
+  padding-left: 0;
+  padding-right: 0;
+}    
+.info-area .p-0 {
+  padding: 0 15px;
+}    
+.soft-header .menu-bar ul li a {
+  padding: 5px 6px 6px;
+}    
+.breadcrumb-text > p {
+  width: 80%;
+}    
+.make-img > img {
+  padding-left: 0;
+}    
+.make-details {
+  padding-right: 0;
+}     
+.pl-230 {
+  padding-left: 100px;
+}    
+.pr-230 {
+  padding-right: 100px;
+}    
+.pl-100 {
+  padding-left: 0;
+}    
+.detailed-rating li {
+  padding-right: 23px;
+}    
+.sidebar-widget > ul {
+  width: 182px;
+}    
+.course-right-sidebar {
+  padding: 46px 10px 7px 13px;
+}    
+.tab-course-text h4 {
+  padding: 15px 40px 16px;
+}    
+.single-blog-text blockquote {
+  padding: 30px 60px 37px;
+}
+.menu-bar ul li .mega-menu {
+  width: 670px;
+}    
+.single-mega-menu2 {
+  padding-left: 20px;
+  width: 150px;
+}    
+.single-mega-menu3 {
+  width: 145px;
+}    
+.sidebar-none{
+    display: none;
+}    
+.active .hamburger-inner, .active .hamburger-inner::after, .active .hamburger-inner::before {
+  background-color: #333;
+}    
+.madical-logo {
+  padding-left: 0;
+}   
+.bar-social a {
+  margin-left: 12px;
+}    
+.subscribe-title h3 {
+  font-size: 25px;
+}    
+.subscribe-title.pr-40 {
+  padding-right: 0;
+}    
+.subscribe-title.pr-40 {
+  margin-top: 8px;
+  padding-right: 0;
+}    
+.portfolio-meta {
+  margin-bottom: 50px;
+}    
+.support-area .action-text-2 > p {
+  letter-spacing: 0;
+}    
+.blog-edu-meta > span {
+  padding: 15px 8px;
+}
+.edu-header .absolute-bar {
+  position: inherit;
+}
+.edu-header {
+  min-height: inherit;
+}    
+.action-btn .button {
+  padding: 13px 25px 15px;
+}  
+.elements.dep-height {
+  min-height: inherit;
+}    
+.blog-right-sidebar-bottom li {
+  margin: 0 12px 8px 0;
+}    
+.pricing-plan a.button {
+  padding: 14px 35px;
+}    
+.mobile-menu .mean-nav ul li ul.menu-overflow {
+  height: 150px;
+  overflow-y: auto;
+}    
+.mt-9 {
+  margin-top: 7px;
+}    
+.page-nav {
+  margin-bottom: 30px;
+  margin-top: 0px;
+}     
+.blog-right-sidebar.right-res {
+  margin-bottom: 50px;
+}    
+    
+    
+    
+    
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.container {width: 100%;}
+    .breadcrumb-area{
+      display:block;
+    }
+    ._leadingdiv{
+      padding-top: 0px;
+    }
+    .transparent-bar._pageplain img._logo1{
+      
+display: block;
+    }
+    .transparent-bar._pageplain img._logo2{
+      
+display: none;
+    }
+    .transparent-bar._pageplain .mean-container a.meanmenu-reveal{
+color: #000;
+}
+
+.transparent-bar._pageplain .mean-container a.meanmenu-reveal span {
+    background: #b0c1d4;
+}
+
+    .slider-area.sa-lim{min-height: 150px;overflow: auto;height: auto;padding-top: 10px;}
+    .slider-area.sa-lim ._leadingdiv .slider-text-inner{
+      
+padding-top: 0px;
+    }
+
+.slider-area.sa-lim ._leadingdiv {}
+    ul._idptablinks{
+    border-bottom: 0px;
+    }
+    ul._idptablinks li{
+      
+      width: auto;
+            
+      min-width: fit-content;
+    }
+    ._idptabs .tab-pane{
+      
+padding-top: 15px;
+    }
+    ._content-cv{
+      position: relative;
+      top: 0px;
+      left: 0px;
+      transform: none;
+    }
+    ._siderel,._siderel-2{
+      
+min-height: auto;
+      
+height: auto;
+      
+position: relative;
+    }
+ .height-100-vh {
+  height: inherit;
+  padding: 150px 0 60px;
+}
+  ._mwatchvid{
+  height: 240px;
+  }    
+    .bar-button a{
+        display: none;
+    }    
+    
+    .bar-button {
+  margin-top: -40px;
+}
+    
+.menu-bar > nav > ul {
+  background-color: #fff;
+  margin: 15px 0 0;
+  padding: 15px 0;
+}   
+.menu-bar > nav > ul > li {
+  float: none;
+  margin: 0;
+  width: 100%;
+}
+.navbar-collapse {
+  padding-left: 0;
+  padding-right: 0;
+}    
+.menu-bar ul li:hover a {
+  color: #333;
+}    
+ .slider-area .slider-text h1 {
+  font-size: 24px;
+  line-height: 35px;
+}   
+ .pt-130 {
+  padding-top: 80px;
+}   
+.pb-100 {
+  padding-bottom: 50px;
+}    
+.ptb-220 {
+  padding: 80px 0;
+}    
+.blog-box {
+  padding: 20px;
+}    
+.action-text h3 {
+  display: block;
+  margin: 0 0 23px;
+  position: inherit;
+  top: 0;
+}    
+.action-text a {
+  display: inline-block;
+}    
+.social-menu ul li {
+  display: inline-block;
+  margin: 0 5px 10px;
+}    
+.footer-contact > span {
+  display: block;
+  margin: 0 0 10px;
+}    
+.info-bg {
+  padding: 99px 0;
+  will-change: inherit;
+}    
+.info-bg-img {
+  position: inherit;
+    width: 100%;
+}    
+.info-area .ptb-120 {
+  padding: 50px 0;
+}    
+.info-details h2 {
+  font-size: 27px;
+} 
+.bar-social {
+  margin-top: -40px;
+}   
+.bar-social a {
+  display: none;
+}    
+.menu-white ul li a {
+  color: #888;
+}    
+.pl-20 {
+  padding-left: 0;
+}   
+.info-details-2.info-details h2 {
+  font-size: 21px;
+  line-height: 30px;
+}    
+.section-title h3 {
+  font-size: 28px;
+}    
+.section-title.text-white p, .section-title p {
+  width: 100%;
+}    
+.footer-content-2 p {
+  width: 100%;
+}    
+.yoga-slide-text p {
+  width: 100%;
+}     
+.pt-140 {
+  padding-top: 80px;
+}   
+.features.features-link > p {
+  width: 100%;
+}    
+.pl-15 {
+  padding-left: 0;
+}    
+.video-info-text h2 {
+  font-size: 32px;
+}    
+.pb-120 {
+  padding-bottom: 80px;
+}    
+.pt-100 {
+  padding-top: 80px;
+}  
+.pb-80 {
+  padding-bottom: 50px;
+} 
+.pt-120 {
+  padding-top: 80px;
+}    
+.subscribe-area .pl-70 {
+  padding-left: 0;
+}    
+.subscribe-area .pr-70 {
+  padding-right: 0;
+}    
+.subscribe-title.pr-40 {
+  padding-right: 0;
+}    
+.subscribe-title h3 {
+  text-align: center;
+}    
+    
+.subscribe-form input {
+  padding-right: 100px;
+}    
+ .subscribe-form form button {
+  padding: 0 12px;
+}   
+.mb-80 {
+  margin-bottom: 50px;
+}    
+.ptb-120 {
+  padding: 50px 0;
+}
+    
+.timeline-img.text-right , .time-line-text.text-right {
+  text-align: left;
+  padding-right: 0;
+}     
+.timeline-img.text-right {
+  margin-bottom: 30px;
+}   
+.time-line-wrapper::before {
+  content: inherit;
+}    
+.timeline-img::before {
+  content: inherit;
+}    
+.time-line-wrapper .ptb-55 {
+  padding: 20px 0;
+}    
+.time-line-wrapper .ptb-55 {
+  padding: 20px 0 0;
+}    
+ .ptb-100 {
+  padding: 60px 0;
+}   
+.upcoming .cdown {
+  width: 50%;
+}    
+.attending-text h4 {
+  font-size: 30px;
+}    
+.for-res{
+    margin-bottom: 30px
+}    
+
+.restaurant-slider h1 {
+font-size: 45px;
+}    
+.about-restaurant > h3 {
+  font-size: 28px;
+}    
+.restaurant-info-all.pl-70 {
+  padding-left: 0;
+}    
+.booking-text > p {
+  width: 100%;
+}    
+.single-foot-menu {
+  margin-bottom: 30px;
+  padding-right: 0;
+}    
+ .name-doller > h4 {
+  max-width: 184px;
+}   
+.pb-90 {
+  padding-bottom: 40px;
+}    
+.single-restaurant-blog > h3 {
+  font-size: 18px;
+}    
+.political-slider h1 {
+  font-size: 42px;
+}
+.political-video .pr-40 {
+  padding-right: 15px;
+}    
+.political-video .pr-70 {
+  padding-right: 0;
+}    
+.political-video .pl-70 {
+  padding-left: 0;
+}     
+.donate-text input {
+  margin: 0 0 20px;
+}    
+.slider-area .slider-text .slider-charity h1 {
+  font-size: 32px;
+}    
+.about-charity-area .pr-60 {
+  padding-left: 0;
+}  
+.about-charity-area .pl-60 {
+  padding-right: 0;
+}    
+.about-charity-area .p-0 {
+  padding: 0 15px;
+}    
+.about-charity {
+  margin-bottom: 40px;
+}    
+    .charit{
+        margin-bottom: 40px;
+    }    
+    .class-space {
+  padding: 18px;
+}
+.volunteer-text {
+  padding-left: 0;
+}    
+.volunteer-text h2 {
+  font-size: 30px;
+}    
+.volunteer-subscribe {
+  padding: 40px 0 0;
+}    
+.dep-medical .info-bg {
+  padding: 104px 0;
+}   
+.dep-medical .pl-30 {
+  padding-left: 15px;
+}   
+.dep-medical .pr-100 {
+  padding-right: 15px;
+}    
+.dep-medical .pt-100 {
+  padding-top: 50px;
+}    
+.dep-medical {
+  padding-bottom: 50px;
+}    
+.call-to-action-2 {
+  padding-left: 0;
+}      
+    
+.appointment-form.pr-50 {
+  padding-right: 0;
+}    
+    
+.appointment-text {
+  padding-right: 0;
+}    
+.about-tab li {
+  border-bottom: 1px solid #d9d9d9;
+  border-left: 0px solid #d9d9d9;
+  width: 100%;
+}    
+.about-tab li:last-child {
+  border-bottom: 0px solid #d9d9d9;
+}    
+.pl-70 {
+  padding-left: 0;
+}    
+.pr-70 {
+  padding-right: 0;
+}    
+.finan-about {
+  margin-bottom: 40px;
+  margin-top: 0;
+}    
+.testimonial-wrap {
+  padding: 40px 0;
+}    
+.mb-50 {
+  margin-bottom: 30px;
+}    
+.construction-menu .search-bar-button a {
+  display: none;
+}
+.search-bar-button {
+  margin-top: -40px;
+}    
+.construction-slider-area h1.font-60 {
+  font-size: 27px;
+}    
+.pt-200 {
+  padding-top: 0;
+}    
+.slider-man {
+  margin-top: 30px;
+}    
+ .single-construction > p {
+  padding: 0 18px;
+}   
+.construction-services {
+  padding: 80px 0 68px;
+}    
+.construction-info .info-bg-img {
+  width: 100%;
+}    
+.construction-all-services {
+  margin-left: 0;
+}    
+.construction-support.right-site {
+  margin-top: 50px;
+  padding-left: 0;
+}    
+.works-area .gallery-menu button {
+  border-bottom: 1px solid #c8c8c8;
+  padding: 9px 14px 10px;
+}     
+.works-area .gallery-menu button:last-child {
+  border-bottom: none;
+}    
+.blog-edu-title > h4 {
+  padding: 0 15px;
+}    
+.blog-edu-meta > span {
+  padding: 18px 14px;
+}    
+    
+.blog-img-app {
+  width: 100%;
+}
+.blog-content-app {
+  width: 100%;
+}    
+.slider-app a {
+  margin-right: 5px;
+  padding: 12px 11px;
+}    
+.slider-app-img {
+  justify-content: center;
+  padding-left: 0;
+  padding-top: 45px;
+}
+.app-video-details {
+  margin-top: 30px;
+}    
+ .awesome-desc {
+  position: inherit;
+}   
+.awesome-desc {
+  padding-right: 15px;
+  position: inherit;
+}    
+.download-button a {
+  margin: 0 0 15px;
+  padding: 15px 30px;
+}    
+.footer-white-padding {
+  padding: 0;
+}    
+.search-bar-button a {
+  display: none;
+}    
+.ptb-280 {
+  padding: 80px 0;
+}    
+.features-edu {
+  padding: 50px 20px;
+}    
+.event-thumb {
+  float: inherit;
+  margin-right: 0;
+}    
+.edu-event.sdu-res {
+  margin-bottom: 30px;
+}    
+.event-info h4 {
+  margin-top: 20px;
+}
+.blog-edu-meta {
+  padding: 0 25px;
+}    
+.soft-bg-img {
+  position: inherit;
+  width: 100%;
+}    
+    
+.soft-bg {
+  padding: 113px 0;
+}  
+.soft-area {
+  padding: 40px 0 0px;
+}    
+.soft-video .video-img {
+  padding-left: 0;
+  padding-right: 0;
+}  
+.soft-details {
+  padding: 53px 15px 60px;
+}
+.soft-dashboard-2 .soft-details {
+  padding: 53px 15px 60px;
+}  
+.mb-60 {
+  margin-bottom: 30px;
+}    
+ .soft-subscribe .attending-text > h2 {
+  font-size: 35px;
+}   
+.soft-subscribe .subscribe-form form {
+  width: 268px;
+}    
+.soft-subscribe .subscribe-form form input {
+  padding: 0 103px 0 23px;
+  width: 268px;
+}    
+.soft-subscribe .subscribe-form form {
+  width: 268px;
+}    
+.soft-footer-social {
+  float: inherit;
+  margin-top: 10px;
+  text-align: center;
+}   
+.soft-footer-info {
+  text-align: center;
+}    
+.soft-details h2 {
+  font-size: 25px;
+}    
+.soft-area.mt-100.soft-dashboard-2 {
+  margin-top: 0;
+}    
+.soft-area {
+  padding: 0px 0 0;
+}
+    
+.soft-dashboard-2.soft-area {
+  padding: 40px 0 0;
+}
+.breadcrumb-text > p {
+  width: 80%;
+}     
+.pb-150 {
+  padding-bottom: 22px;
+}    
+.pt-90 {
+  padding-top: 40px;
+}    
+.others-header .menu-bar > nav > ul {
+  border: 1px solid #ddd;
+}    
+.make-details {
+  padding-right: 0;
+}    
+.make-img > img {
+  margin-top: 40px;
+  padding-left: 0;
+}    
+.pl-230 {
+  padding-left: 0px;
+}    
+.pr-230 {
+  padding-right: 0px;
+}    
+.make-details > h3 {
+  font-size: 30px;
+}    
+.action-text-2 {
+  padding: 0;
+}    
+.pl-100 {
+  padding-left: 0;
+}     
+.info-all {
+  margin-top: 50px;
+}    
+.mt-80 {
+  margin-top: 50px;
+}    
+.info-all.info-all-2 {
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.breadcrumb-text > h2 {
+  font-size: 38px;
+}    
+.review {
+  padding-left: 10px;
+}    
+.teacher {
+  width: 177px;
+}    
+.tab-course-text h4 {
+  padding: 10px 10px 11px;
+}    
+.detailed-rating {
+  margin-left: 0;
+  margin-top: 40px;
+}    
+.detailed-rating li {
+  padding-right: 0;
+}    
+.blog-img-details {
+  padding-left: 110px;
+}
+.course-right-sidebar {
+  padding: 46px 37px 7px 28px;
+}    
+.course-details-top > h2 {
+  font-size: 23px;
+  line-height: 35px;
+}    
+.single-blog-text > h2 {
+  font-size: 25px;
+}    
+.single-blog-text blockquote {
+  padding: 30px 10px 37px;
+}    
+.single-comment.middle-comment {
+  margin: 63px 0;
+}    
+
+.phone-email {
+  text-align: center;
+}   
+ 
+.phone-email li {
+  margin-right: 10px;
+  margin-bottom: 5px;
+}   
+.single-mega-menu1 {
+  display: none;
+}
+.menu-bar ul li .mega-menu {
+    left: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}    
+.single-mega-menu2 {
+    padding-left: 0;
+    width: 100%;
+    padding-top: 0px;
+}    
+.single-mega-menu3 {
+  padding-top: 10px;
+  width: 100%;
+}    
+.madical-logo {
+  padding-left: 0;
+}  
+.edu-header .transparent-bar.stick.ptb-30 {
+  border-bottom: 0px solid #fff;
+  padding: 30px 0;
+}   
+.edu-header {
+  min-height: inherit;
+}   
+.subscribe-title h3 {
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+.works-area .gallery-menu button:last-child {
+  border-bottom: 1px solid #c8c8c8;
+}    
+.works-area .gallery-menu button {
+  border: 1px solid #c8c8c8;
+  margin: 0 0 10px;
+}    
+.subscribe-form form .clear input {
+  padding: 16.3px 10px;
+}   
+ .subscribe-form form input {
+  padding-right: 98px;
+}   
+.breadcrumb-text > h2 {
+  font-size: 28px;
+}    
+.portfolio-meta {
+  margin-bottom: 50px;
+}    
+.portfolio-meta ul > li i {
+  margin-right: 10px;
+}    
+.portfolio-meta a {
+  font-size: 13px;
+}    
+.pt-110 {
+  padding-top: 50px;
+}    
+.pricing-plan a.button {
+  padding: 14px 28px;
+}
+.edu-header .absolute-bar {
+  position: inherit;
+}
+.edu-header {
+  min-height: inherit;
+}    
+#reviews > h2 {
+  font-size: 18px;
+}    
+
+.wedd-title h3 {
+  font-size: 16px;
+}    
+ .soft-subscribe .subscribe-form form .clear input {
+  width: 100px;
+}   
+ .login-form-container {
+  padding: 35px 10px;
+}   
+.error-text-top > img {
+  width: 100%;
+}    
+.mobile-menu .mean-nav ul li ul.menu-overflow {
+  height: 150px;
+  overflow-y: auto;
+}    
+.mt-9 {
+  margin-top: 7px;
+}    
+.page-nav li {
+  margin: 0 5px;
+}    
+.page-nav {
+  margin-bottom: 30px;
+  margin-top: 0px;
+}    
+.blog-right-sidebar.right-res {
+  margin-bottom: 30px;
+}    
+    
+    
+    
+    
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+    
+    
+    
+    
+    
+    
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

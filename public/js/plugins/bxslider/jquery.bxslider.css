@@ -1,0 +1,278 @@
+/**
+ * Name: bxslider.css
+ *	
+ *	T.O.C
+ *
+ *	=Basics
+ *	=Slider theme
+ *	=Loader
+ *	=Pager
+ *	=Directional Controls (Next / Prev)
+ *	=Auto Controls (Start / Stop)
+ *	=Pager with auto controls hibrid layout	
+ *	=Image Captions
+ *
+ */
+
+ 
+ /* ==========================================================================
+   =Basics
+   ========================================================================== */
+
+	.bx-wrapper {
+		position: relative;
+		padding: 0;
+		margin: 0 auto 9px auto;
+	}
+	
+	.bx-wrapper ul { list-style: none; }
+	
+	.bx-wrapper img {
+		display: block;
+		max-width: 100%;
+	}
+
+/* ==========================================================================
+   =Slider theme
+   ========================================================================== */
+
+	.bx-wrapper .bx-viewport {
+		/*fix other elements on the page moving (on Chrome)*/
+		-webkit-transform: translatez(0);
+		   -moz-transform: translatez(0);
+		    -ms-transform: translatez(0);
+			 -o-transform: translatez(0);
+			    transform: translatez(0);
+	}
+	
+	.bx-wrapper .bx-pager,
+	.bx-wrapper .bx-controls-auto {
+		position: absolute;
+		z-index: 50;
+		bottom: -50px;
+		width: 100%;
+	}
+
+/* ==========================================================================
+   =Loader
+   ========================================================================== */
+
+	.bx-wrapper .bx-loading {
+		position: absolute;
+		z-index: 10000;
+		top: 0;
+		left: 0;
+		width: 100%;
+		min-height: 50px;
+		height: 100%;
+		background: #fff url(images/bx_loader.gif) no-repeat center center;
+	}
+
+/* ==========================================================================
+   =Pager
+   ========================================================================== */
+
+	.bx-wrapper .bx-pager {
+		padding-top: 20px;
+		color: #111;
+		text-align: center;
+	}
+	
+	.bx-wrapper .bx-pager .bx-pager-item,
+	.bx-wrapper .bx-controls-auto .bx-controls-auto-item { display: inline-block; }
+	
+	.bx-wrapper .bx-pager.bx-default-pager a {
+		display: block;
+		width: 10px;
+		height: 10px;
+		border-radius: 5px;
+		outline: 0;
+		margin: 0 5px;
+		background: #9b9aa2;
+		text-indent: -9999px;	
+	}
+	
+	.bx-wrapper .bx-pager.bx-default-pager a:hover,
+	.bx-wrapper .bx-pager.bx-default-pager a.active { background: #7a7885; }
+
+/* ==========================================================================
+   =Directional Controls (Next / Prev)
+   ========================================================================== */
+
+	.bx-wrapper .bx-prev {
+		left: -100px;
+		background: url(../../images/left-2.png) no-repeat center center;
+	}
+	
+	.bx-wrapper .bx-next {
+		right: -100px;
+		background: url(../../images/right-2.png) no-repeat center center;
+	}
+	
+	/**
+	 * 1. changing the z-index from the original 9999 to 
+	 */
+	
+	.bx-wrapper .bx-controls-direction a {
+		position: absolute;
+		z-index: 1000; /* 1 */
+		top: 50%;
+		width: 36px;
+		height: 36px;
+		border: 2px solid #7a7885;
+		border-radius: 3px;
+		outline: 0;
+		margin-top: -16px;
+		text-indent: -9999px;
+		opacity: 0.5;
+		-webkit-transition: opacity 0.3s;
+				transition: opacity 0.3s;
+	}
+	
+	.bx-wrapper .bx-controls-direction a.disabled { display: none; }
+	
+	.bx-wrapper .bx-controls-direction a:hover { opacity: 1; }
+
+/* ==========================================================================
+   =Auto Controls (Start / Stop)
+   ========================================================================== */
+
+	.bx-wrapper .bx-controls-auto { text-align: center; }
+	
+	.bx-wrapper .bx-controls-auto .bx-start {
+		display: block;
+		width: 10px;
+		height: 11px;
+		outline: 0;
+		margin: 0 3px;
+		background: url(images/controls.png) -86px -11px no-repeat;
+		text-indent: -9999px;
+	}
+	
+	.bx-wrapper .bx-controls-auto .bx-start:hover,
+	.bx-wrapper .bx-controls-auto .bx-start.active { background-position: -86px 0; }
+	
+	.bx-wrapper .bx-controls-auto .bx-stop {
+		display: block;
+		width: 9px;
+		height: 11px;
+		outline: 0;
+		margin: 0 3px;
+		background: url(images/controls.png) -86px -44px no-repeat;
+		text-indent: -9999px;
+	}
+	
+	.bx-wrapper .bx-controls-auto .bx-stop:hover,
+	.bx-wrapper .bx-controls-auto .bx-stop.active { background-position: -86px -33px; }
+
+/* ==========================================================================
+   =Pager with auto controls hibrid layout
+   ========================================================================== */
+
+	.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+		width: 80%;
+		text-align: left;	
+	}
+	
+	.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+		right: 0;
+		width: 35px;
+	}
+
+/* ==========================================================================
+   =Image Captions
+   ========================================================================== */
+
+	.bx-wrapper .bx-caption {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		background: rgba(80, 80, 80, 0.75);
+	}
+	
+	.bx-wrapper .bx-caption span {
+		display: block;
+		padding: 10px;
+		color: #fff;
+	}
+
+	
+	
+	.slider-control span {
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		border: 2px solid #9C6B18;
+		border-radius: 3px;
+		margin-right: 5px;
+		color: #d7d7d7;
+		font-size: 18px;
+		line-height: 30px;
+		text-align: center;
+	}
+	
+	.slider-control span:last-child { margin-right: 0; }
+	
+	.slider-control span a {
+		display: block;
+		color: #9C6B18; 
+	
+		margin: -2px 0px 0px 0px;
+}
+	
+	.slider-control span:hover { border-color: #9C6B18; }
+	.slider-control span:hover a { color: #7a7885; }
+	
+	.features-slider { margin-bottom: 80px; }
+	
+	.features-slider-description { margin-top: 200px; }
+	
+	.features-slider .bx-wrapper .bx-pager,
+	.features-slider .bx-wrapper .bx-controls-auto {
+		bottom: 50px;
+		text-align: left;
+	}
+	
+	.testimonial-slider .testimonial img { margin: 0 auto 30px auto; }
+	
+	.images-slider { margin-bottom: 20px; }
+	
+	.images-slider .bx-wrapper .bx-controls-direction a { border-color: #fff; }
+	
+	.images-slider .bx-wrapper .bx-prev {
+		left: 20px;
+		background: url(../../images/left.png) no-repeat center center;
+	}
+	
+	.images-slider .bx-wrapper .bx-next {
+		right: 20px;
+		background: url(../../images/right.png) no-repeat center center;
+	}
+	
+	.portfolio-slider .bx-wrapper .bx-pager,
+	.portfolio-slider .bx-wrapper .bx-controls-auto { bottom: 20px; }
+	
+	.portfolio-slider { margin-bottom: 100px; }
+	
+	@media (min-width: 1400px) {
+		
+		.features-slider .bx-wrapper .bx-pager,
+		.features-slider .bx-wrapper .bx-controls-auto { bottom: 150px; }
+		
+	}
+	
+	@media (min-width: 768px) and (max-width: 979px) {
+		
+		.features-slider-description { margin-top: 50px; }
+		
+	}
+	
+	@media (max-width: 767px) {
+		
+		.features-slider-description { margin-top: 0; }
+		
+		.features-slider .bx-wrapper .bx-pager,
+		.features-slider .bx-wrapper .bx-controls-auto { bottom: -50px; }
+		
+	}

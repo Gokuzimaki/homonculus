@@ -1,0 +1,23 @@
+{
+    "require": {
+        "monolog/monolog": "1.0.*",
+        "sonata-project/google-authenticator": "^1.1",
+        "aws/aws-sdk-php": "^3.112",
+        "cboden/ratchet": "^0.4.1",
+        "phpmailer/phpmailer": "^6.1",
+        "html2text/html2text": "^4.2",
+        "mobiledetect/mobiledetectlib": "^2.8",
+        "ksubileau/color-thief-php": "^1.4",
+        "ajaxray/php-watermark": "^0.1.1",
+        "picqer/php-barcode-generator": "^2.0",
+        "mpdf/mpdf": "^8.0",
+        "setasign/fpdi-fpdf": "^2.3",
+        "setasign/fpdi-tcpdf": "^2.3",
+        "setasign/fpdi-tfpdf": "^2.3",
+        "phpoffice/phpword": "^0.17.0",
+        "dompdf/dompdf": "^0.8.5",
+        "ministryofweb/image-fix-exif-orientation": "^0.1.2",
+        "vlucas/phpdotenv": "^5.0",
+        "yabacon/paystack-php": "^2.2"
+    }
+}

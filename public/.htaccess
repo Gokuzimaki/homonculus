@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+	Options -MultiViews
+	RewriteEngine On
+	# Redirection rules for all file requests in this directory
+	RewriteBase /homonculusmvc/public
+	# Check to ensure the request or requested path is not found
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_FILENAME} !-f
+	# Redirect every request that was not found to the index file
+	# as a url parameter 
+	RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+</IfModule>
